@@ -78,7 +78,7 @@ cd attacklab
 ## 一般的实验步骤
 
 以problem1为例
-
+ 
 1. 首先你需要使用`objdump -d file`去获得 problem1 的实验代码，并认真阅读其中的关键部分
 2. 确定好该题目要求你做什么，并设计相关payload输入来完成实验
      1) 你需要将你的payload保存为一个.txt文件(比如文件名为ans1.txt)，且.txt文件的内容是一个二进制流，也就是你要放在栈上的内容。之后运行./problem1 ans1.txt，便可以看到你的输出
